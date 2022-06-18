@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="640.0" maxWidth="640.0" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Redactor_controller">
+    <children>
+        <AnchorPane VBox.vgrow="ALWAYS">
+            <children>
+                <Button fx:id="exit_btn" layoutX="130.0" layoutY="365.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="108.0" text="отмена" AnchorPane.bottomAnchor="10.0" />
+                <TextField fx:id="lastname" layoutX="14.0" layoutY="14.0" promptText="Фамилия" />
+                <TextField fx:id="name" layoutX="171.0" layoutY="14.0" promptText="Имя" />
+                <TextField fx:id="surname" layoutX="329.0" layoutY="14.0" promptText="Отчество" />
+                <TextField fx:id="mobileH" layoutX="14.0" layoutY="49.0" prefHeight="25.0" prefWidth="129.0" promptText="Домашний телефон" />
+                <TextField fx:id="adress" layoutX="14.0" layoutY="84.0" promptText="Адрес" />
+                <Button fx:id="add_user_btn" layoutX="14.0" layoutY="353.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="108.0" text="Cохранить" AnchorPane.bottomAnchor="10.0" />
+                <TextArea fx:id="comment" layoutX="14.0" layoutY="237.0" minHeight="96.0" minWidth="562.0" prefHeight="96.0" prefWidth="562.0" />
+                <Label layoutX="14.0" layoutY="213.0" prefHeight="17.0" prefWidth="108.0" text="Комментарий:" />
+                <TextField fx:id="mobileW" layoutX="147.0" layoutY="49.0" prefHeight="25.0" prefWidth="135.0" promptText="Мобильный телефон" />
+            <DatePicker fx:id="bday_dataP" layoutX="171.0" layoutY="84.0" />
+            <Label layoutX="14.0" layoutY="116.0" text="Введите хотя бы один телефон в вормате XXXXXXXXXXX (11 цифр)" />
+            </children>
+        </AnchorPane>
+    </children>
+</VBox>

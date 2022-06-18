@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="HW5_193_Tsydypov_Agvan:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/HW5_193_Tsydypov_Agvan_jar</output-path>
+    <root id="archive" name="HW5_193_Tsydypov_Agvan.jar">
+      <element id="module-output" name="HW5_193_Tsydypov_Agvan" />
+    </root>
+  </artifact>
+</component>
